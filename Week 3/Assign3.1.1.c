@@ -17,3 +17,8 @@ int main() {
 
     return 0;
 }
+/**
+The order of definition of the string member does not affect the overall size of the struct. 
+The size is determined by the size of each individual member and their alignment requirements, 
+not the order in which they are defined within the struct.
+    **/
